@@ -1,0 +1,123 @@
+/* AppStyles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Public Sans', sans-serif;
+    background-color: #ffdb58; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text color */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #3300ff; /* Vibrant coral color for heading */
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #333; /* Dark gray border for raw feel */
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #9723c9; /* Dark violet color for buttons */
+    color: #fff; /* White text color */
+    border: 2px solid #333; /* Dark gray border for raw feel */
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 4px 4px 8px #333; /* Dark gray shadow for depth */
+  }
+  
+  button.edit {
+    background-color: #ffb400; /* Vibrant yellow color for Edit button */
+  }
+  
+  button.delete {
+    background-color: #9d0208; /* Dark red color for Delete button */
+  }
+  
+  button:hover {
+    background-color: #370617; /* Darker violet on hover */
+  }
+  
+  button.edit:hover {
+    background-color: #ff6361; /* Darker coral for Edit button on hover */
+  }
+  
+  button.delete:hover {
+    background-color: #5a0001; /* Darker red for Delete button on hover */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff; /* White background for list items */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #333; /* Dark gray border for raw feel */
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 4px 8px #333; /* Dark gray shadow for depth */
+  }
+  
+  li span {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  li input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  li button {
+    color: #fff;
+    border: 2px solid #333; /* Dark gray border for raw feel */
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 4px 4px 8px #333; /* Dark gray shadow for depth */
+  }
+  
+  li button.edit {
+    background-color: #02c39a; /* Vibrant green for Edit button */
+  }
+  
+  li button.delete {
+    background-color: #d00000; /* Vibrant red color for Delete button */
+  }
+  
+  li button:hover {
+    background-color: #028090; /* Darker blue-green on hover */
+  }
+  
+  li button.edit:hover {
+    background-color: #00a896; /* Darker green for Edit button on hover */
+  }
+  
+  li button.delete:hover {
+    background-color: #9d0208; /* Darker red for Delete button on hover */
+  }
+  
