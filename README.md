@@ -1,5 +1,5 @@
 
-<img width="389" alt="TaskManager" src="https://github.com/FernandoAracena/task-manager/assets/64535303/f1b9b40b-7414-49bd-b321-1ff88b08ccb6">
+<img width="515" alt="NeoBrutalistTaskManager" src="https://github.com/FernandoAracena/task-manager/assets/64535303/f19e83e8-142b-4833-aba2-79d4bd0e1785">
 
 # Getting Started with Create React App
 
