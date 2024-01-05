@@ -16,7 +16,7 @@ function TaskForm({ onAddTask }) {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Add a new task"
+        placeholder="Add a new task!"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />

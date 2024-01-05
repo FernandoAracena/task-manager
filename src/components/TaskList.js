@@ -45,7 +45,7 @@ function TaskList({ tasks, onUpdateTask, onDeleteTask }) {
             <>
               <span>{task.title}</span>
               <button className="edit" onClick={() => handleEditClick(task.id, task.title)}>Edit</button>
-              <button className="delete" onClick={() => onDeleteTask(task.id)}>Delete</button>
+              <button className="delete" onClick={() => onDeleteTask(task.id)}>Done</button>
             </>
           )}
         </li>

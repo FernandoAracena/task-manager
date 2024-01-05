@@ -58,7 +58,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='Manager'>
       <h1>Task Manager</h1>
       <TaskForm onAddTask={addTask} />
       {tasks !== null && tasks !== undefined ? (

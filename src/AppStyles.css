@@ -5,12 +5,19 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Public Sans', sans-serif;
-    background-color: #ffdb58; /* Light gray background */
+    background-color: #ffff00; 
     margin: 0;
     padding: 0;
-    color: #333; /* Dark text color */
+    color: #333; 
   }
-  
+  .Manager{
+    margin: 25px;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 12px 10px;
+    border-radius: 5px;
+    box-shadow: 30px 35px 2px #000;
+  }
   .container {
     max-width: 800px;
     margin: 0 auto;
@@ -19,7 +26,7 @@ body {
   
   h1 {
     font-size: 2.5em;
-    color: #3300ff; /* Vibrant coral color for heading */
+    color: #ff00f5; 
   }
   
   form {
@@ -30,39 +37,39 @@ body {
   input {
     flex: 1;
     padding: 10px;
-    border: 2px solid #333; /* Dark gray border for raw feel */
+    border: 2px solid #000; 
     border-radius: 4px;
   }
   
   button {
     padding: 10px 15px;
-    background-color: #9723c9; /* Dark violet color for buttons */
-    color: #fff; /* White text color */
-    border: 2px solid #333; /* Dark gray border for raw feel */
+    background-color: #9723c9; 
+    color: #fff; 
+    border: 2px solid #000; 
     border-radius: 4px;
     cursor: pointer;
     margin-left: 10px;
-    box-shadow: 4px 4px 8px #333; /* Dark gray shadow for depth */
+    box-shadow: 4px 4px #000; 
   }
   
   button.edit {
-    background-color: #ffb400; /* Vibrant yellow color for Edit button */
+    background-color: #ffb400; 
   }
   
   button.delete {
-    background-color: #9d0208; /* Dark red color for Delete button */
+    background-color: #9d0208; 
   }
   
   button:hover {
-    background-color: #370617; /* Darker violet on hover */
+    background-color: #370617; 
   }
   
   button.edit:hover {
-    background-color: #ff6361; /* Darker coral for Edit button on hover */
+    background-color: #ff6361; 
   }
   
   button.delete:hover {
-    background-color: #5a0001; /* Darker red for Delete button on hover */
+    background-color: #5a0001; 
   }
   
   ul {
@@ -71,15 +78,15 @@ body {
   }
   
   li {
-    background-color: #fff; /* White background for list items */
+    background-color: #fff; 
     margin-bottom: 10px;
     padding: 10px;
-    border: 2px solid #333; /* Dark gray border for raw feel */
+    border: 2px solid #000; 
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 4px 4px 8px #333; /* Dark gray shadow for depth */
+    box-shadow: 4px 4px #000; 
   }
   
   li span {
@@ -94,30 +101,30 @@ body {
   
   li button {
     color: #fff;
-    border: 2px solid #333; /* Dark gray border for raw feel */
+    border: 2px solid #000; 
     border-radius: 4px;
     cursor: pointer;
     margin-left: 10px;
-    box-shadow: 4px 4px 8px #333; /* Dark gray shadow for depth */
+    box-shadow: 4px 4px #000; 
   }
   
   li button.edit {
-    background-color: #02c39a; /* Vibrant green for Edit button */
+    background-color: #02c39a; 
   }
   
   li button.delete {
-    background-color: #d00000; /* Vibrant red color for Delete button */
+    background-color: #d00000; 
   }
   
   li button:hover {
-    background-color: #028090; /* Darker blue-green on hover */
+    background-color: #028090; 
   }
   
   li button.edit:hover {
-    background-color: #00a896; /* Darker green for Edit button on hover */
+    background-color: #00a896; 
   }
   
   li button.delete:hover {
-    background-color: #9d0208; /* Darker red for Delete button on hover */
+    background-color: #9d0208; 
   }
   
