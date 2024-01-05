@@ -1,3 +1,6 @@
+
+<img width="389" alt="TaskManager" src="https://github.com/FernandoAracena/task-manager/assets/64535303/f1b9b40b-7414-49bd-b321-1ff88b08ccb6">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
